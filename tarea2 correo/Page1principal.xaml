@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea2_correo.Page1principal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ingrese sus datos" HorizontalTextAlignment="Center" ScaleY="2" ScaleX="2"/>
+
+            <Entry x:Name="txtnumero1" Placeholder=" INGRESE SU NOMBRE " Keyboard="Chat" FontSize="Body" Margin="20" />
+
+            <Entry x:Name="txtnumero2" Placeholder=" INGRESE SUS APELLIDOS" Keyboard="Chat" FontSize="Body" Margin="20"/>
+
+            <Entry x:Name="txtnumero3" Placeholder=" INGRESE SU EDAD" Keyboard="Chat" FontSize="Body" Margin="20" />
+            <Entry x:Name="txtnumero4" Placeholder=" INGRESE SU CORREO ELECTRONICO " Keyboard="Email"  FontSize="Body" Margin="20"/>
+
+            <Button x:Name="btENVIAR" Text="ENVIAR INFORMACIÓ" Clicked="btENVIAR_Clicked" BackgroundColor="#e89d10" TextColor="Black" FontSize="Body" Margin="15" CornerRadius="20"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea2_correo.PageResultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding nombre}"
+                   TextDecorations="Underline" Margin="15"
+               />
+            <Label Text="{Binding apellidos}"
+               />
+            <Label Text="{Binding edad}"
+               />
+            <Label Text="{Binding correo}"
+               />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
