@@ -26,9 +26,9 @@ namespace tarea2_correo
                 apellidos=txtnumero2.Text,
                 edad=txtnumero3.Text,
                 correo=txtnumero4.Text,
-            
-            };
 
+            };
+            
             var secondpage = new PageResultado();
             secondpage.BindingContext= emple;
             Navigation.PushAsync (secondpage);

@@ -5,14 +5,21 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="{Binding nombre}"
-                   TextDecorations="Underline" Margin="15"
+                   FontSize="Body" Margin="20"  BackgroundColor="Violet" TextColor="Black" 
+                   
                />
             <Label Text="{Binding apellidos}"
+                   FontSize="Body" Margin="20" BackgroundColor="Violet" TextColor="Black"
                />
             <Label Text="{Binding edad}"
+                   FontSize="Body" Margin="20" BackgroundColor="Violet" TextColor="Black"
+                    
                />
             <Label Text="{Binding correo}"
+                   FontSize="Body" Margin="20" BackgroundColor="Violet" TextColor="Black" AnchorX="12" AnchorY=" 12"
+                   
                />
+           
 
 
         </StackLayout>

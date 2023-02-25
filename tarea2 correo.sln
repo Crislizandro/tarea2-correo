@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarea2 correo.Android", "tarea2 correo.Android\tarea2 correo.Android.csproj", "{1EB70650-C9CB-4D68-B982-6870BF0B9E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarea2 correo", "tarea2 correo\tarea2 correo.csproj", "{441C0164-559F-465F-9B5F-09AFFD01F8CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tarea2 correo", "tarea2 correo\tarea2 correo.csproj", "{441C0164-559F-465F-9B5F-09AFFD01F8CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controller", "controller", "{0155F1AA-00F6-47D1-88E4-0C2BEF1DB497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
