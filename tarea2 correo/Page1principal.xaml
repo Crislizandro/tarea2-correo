@@ -6,7 +6,7 @@
         <StackLayout>
             <Label Text="ingrese sus datos" HorizontalTextAlignment="Center" ScaleY="2" ScaleX="2"/>
 
-            <Entry x:Name="txtnumero1" Placeholder=" INGRESE SU NOMBRE " Keyboard="Chat" FontSize="Body" Margin="20" />
+            <Entry x:Name="txtnumero1" Placeholder=" INGRESE SU NOMBRE " Keyboard="Default" FontSize="Body" Margin="20" />
 
             <Entry x:Name="txtnumero2" Placeholder=" INGRESE SUS APELLIDOS" Keyboard="Chat" FontSize="Body" Margin="20"/>
 

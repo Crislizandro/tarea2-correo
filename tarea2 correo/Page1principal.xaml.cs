@@ -17,7 +17,7 @@ namespace tarea2_correo
             InitializeComponent();
         }
 
-        private void btENVIAR_Clicked(object sender, EventArgs e)
+        private async void btENVIAR_Clicked(object sender, EventArgs e)
         {
 
             var emple = new Empleado
@@ -28,6 +28,12 @@ namespace tarea2_correo
                 correo=txtnumero4.Text,
 
             };
+
+            if (await App.Database.SaveEmple(emple) > 0 )
+            {
+               await DisplayAlert("ingresado", "Empleado Ingresado con exito", "OK");
+
+            }
             
             var secondpage = new PageResultado();
             secondpage.BindingContext= emple;
