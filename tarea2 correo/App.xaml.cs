@@ -33,8 +33,8 @@ namespace tarea2_correo
 
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PageListEmple());
-            //MainPage = new NavigationPage( new Page1principal());
+            //MainPage = new NavigationPage(new PageListEmple());
+            MainPage = new NavigationPage( new Page1principal());
         }
 
         protected override void OnStart()
